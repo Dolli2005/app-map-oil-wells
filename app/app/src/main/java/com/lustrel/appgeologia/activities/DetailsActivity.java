@@ -38,10 +38,10 @@ public class DetailsActivity extends Activity {
             JSONObject details = new JSONObject(detailsAsText);
 
             lblName.setText(details.getString("name"));
-            lblDepth.setText(R.string.depth_text + ": " + details.getString("depth"));
-            lblBasin.setText(R.string.basin_text + ": " + details.getString("basin"));
-            lblOwner.setText(R.string.owner_text + ": " + details.getString("owner"));
-            lblDrillingYear.setText(R.string.drilling_year_text + ": " + details.getString("drillingYear"));
+            lblDepth.setText(R.string.detail_depth_text + "" + details.getString("depth"));
+            lblBasin.setText(R.string.detail_basin_text + "" + details.getString("basin"));
+            lblOwner.setText(R.string.detail_owner_text + "" + details.getString("owner"));
+            lblDrillingYear.setText(R.string.detail_drilling_year_text + "" + details.getString("drillingYear"));
         } catch(JSONException exception){}
 
     }

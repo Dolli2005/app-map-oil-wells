@@ -2,8 +2,9 @@
     <string name="app_name">App Geologia</string>
     <string name="title_activity_map">Map</string>
 
-    <string name="depth_text">Profundidade</string>
-    <string name="basin_text">Bacia</string>
-    <string name="owner_text">Proprietário</string>
-    <string name="drilling_year_text">Ano de perfuração</string>
+    <string name="detail_text">Detalhes</string>
+    <string name="detail_depth_text">Profundidade:</string>
+    <string name="detail_basin_text">Bacia:</string>
+    <string name="detail_owner_text">Proprietário:</string>
+    <string name="detail_drilling_year_text">Ano de perfuração:</string>
 </resources>
