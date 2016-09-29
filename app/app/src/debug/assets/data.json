@@ -2,16 +2,28 @@
   {
     "name": "Poço #1",
     "latitude": -19.280782,
-    "longitude": -40.1333127
+    "longitude": -40.1333127,
+    "basin": "Bacia do Poço #1",
+    "owner": "Dono do Poço #1",
+    "depth": "300 metros",
+    "drillingYear": "2003"
   },
   {
     "name": "Poço #2",
     "latitude": -13.917001,
-    "longitude": -39.0727477
+    "longitude": -39.0727477,
+    "basin": "Bacia do Poço #2",
+    "owner": "Dono do Poço #2",
+    "depth": "550 metros",
+    "drillingYear": "1992"
   },
   {
     "name": "Poço #3",
     "latitude": -4.112259,
-    "longitude": -49.6441317
+    "longitude": -49.6441317,
+    "basin": "Bacia do Poço #3",
+    "owner": "Dono do Poço #3",
+    "depth": "112 metros",
+    "drillingYear": "2007"
   }
 ]

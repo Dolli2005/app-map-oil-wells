@@ -1,13 +1,16 @@
 package com.lustrel.appgeologia.activities;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.lustrel.appgeologia.R;
 import com.lustrel.appgeologia.models.InternalDatabase;
@@ -20,6 +23,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     private InternalDatabase internalDatabase;
     private GoogleMap map;
     private JSONArray databaseData;
+    private JSONObject lastClickedMarkerDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +41,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         focusOnBrazil();
         loadDatabaseData();
         createMarkersOnMap();
+        map.setOnMarkerClickListener(new MarkerClickHandler());
     }
 
     private void focusOnBrazil(){
@@ -59,9 +64,32 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 Double placeLongitude = place.getDouble("longitude");
                 LatLng placeLocation = new LatLng(placeLatitude, placeLongitude);
 
-                map.addMarker(new MarkerOptions().title(placeName).position(placeLocation));
+                MarkerOptions markerOptions = new MarkerOptions()
+                        .title(placeName)
+                        .snippet("" + i)
+                        .position(placeLocation);
+
+                map.addMarker(markerOptions);
             }
         } catch(JSONException exception){}
+    }
 
+    private void openDetailsActivity(){
+        Intent intent = new Intent(MapActivity.this, DetailsActivity.class);
+        intent.putExtra("MARKER_DETAILS", lastClickedMarkerDetails.toString());
+        startActivity(intent);
+    }
+
+    public class MarkerClickHandler implements GoogleMap.OnMarkerClickListener {
+        @Override
+        public boolean onMarkerClick(Marker marker){
+            try {
+                int markerIndexOnData = Integer.parseInt(marker.getSnippet());
+                lastClickedMarkerDetails = databaseData.getJSONObject(markerIndexOnData);
+                openDetailsActivity();
+            } catch(JSONException ex){}
+
+            return true;
+        }
     }
 }
