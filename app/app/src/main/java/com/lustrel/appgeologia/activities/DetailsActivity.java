@@ -3,9 +3,7 @@ package com.lustrel.appgeologia.activities;
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
-
 import com.lustrel.appgeologia.R;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -40,10 +38,10 @@ public class DetailsActivity extends Activity {
             JSONObject details = new JSONObject(detailsAsText);
 
             lblName.setText(details.getString("name"));
-            lblDepth.setText("Profundidade: " + details.getString("depth"));
-            lblBasin.setText("Bacia: " + details.getString("basin"));
-            lblOwner.setText("Proprietário: " + details.getString("owner"));
-            lblDrillingYear.setText("Ano de perfuração: " + details.getString("drillingYear"));
+            lblDepth.setText(R.string.depth_text + ": " + details.getString("depth"));
+            lblBasin.setText(R.string.basin_text + ": " + details.getString("basin"));
+            lblOwner.setText(R.string.owner_text + ": " + details.getString("owner"));
+            lblDrillingYear.setText(R.string.drilling_year_text + ": " + details.getString("drillingYear"));
         } catch(JSONException exception){}
 
     }
