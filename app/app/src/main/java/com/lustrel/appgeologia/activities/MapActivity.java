@@ -8,10 +8,11 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 import com.lustrel.appgeologia.R;
 import com.lustrel.appgeologia.models.InternalDatabase;
-
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -49,6 +50,18 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     }
 
     private void createMarkersOnMap(){
+        try {
+            for(int i = 0; i < databaseData.length(); i++){
+                JSONObject place = databaseData.getJSONObject(i);
+
+                String placeName = place.getString("name");
+                Double placeLatitude = place.getDouble("latitude");
+                Double placeLongitude = place.getDouble("longitude");
+                LatLng placeLocation = new LatLng(placeLatitude, placeLongitude);
+
+                map.addMarker(new MarkerOptions().title(placeName).position(placeLocation));
+            }
+        } catch(JSONException exception){}
 
     }
 }
