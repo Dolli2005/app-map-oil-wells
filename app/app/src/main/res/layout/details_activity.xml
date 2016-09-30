@@ -41,31 +41,35 @@
                 android:id="@+id/card_title"
                 android:textSize="22sp"
                 android:textColor="@color/colorPrimary"
-                android:layout_marginBottom="10sp"/>
+                android:layout_marginBottom="10sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_depth_text"
-                android:id="@+id/depth"/>
+                android:id="@+id/depth"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_basin_text"
-                android:id="@+id/basin"/>
+                android:id="@+id/basin"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_owner_text"
-                android:id="@+id/owner"/>
+                android:id="@+id/owner"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/detail_drilling_year_text"
-                android:id="@+id/drillingYear"/>
+                android:id="@+id/drilling_year"
+                android:textSize="16sp"/>
         </LinearLayout>
 
 
