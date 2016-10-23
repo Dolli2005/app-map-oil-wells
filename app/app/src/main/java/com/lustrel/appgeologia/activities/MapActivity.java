@@ -3,15 +3,9 @@ package com.lustrel.appgeologia.activities;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.widget.Toast;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
-import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
+import android.view.Window;
+import com.google.android.gms.maps.*;
+import com.google.android.gms.maps.model.*;
 import com.lustrel.appgeologia.R;
 import com.lustrel.appgeologia.models.InternalDatabase;
 import org.json.JSONArray;
@@ -28,6 +22,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.map_activity);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
@@ -46,7 +41,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     private void focusOnBrazil(){
         LatLng brazilLocation = new LatLng(-13.1158448, -61.1816599);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 4));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 3));
     }
 
     private void loadDatabaseData(){

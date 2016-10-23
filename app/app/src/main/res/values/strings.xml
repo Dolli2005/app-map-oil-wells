@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">App Geologia</string>
-    <string name="title_activity_map">Map</string>
+    <string name="app_name">Geoaccess</string>
+    <string name="title_activity_map">Poços em todo o Brasil</string>
+    <string name="title_activity_details">Detalhamento do poço</string>
 
     <string name="detail_text">Detalhes</string>
     <string name="detail_depth_text">Profundidade:</string>
