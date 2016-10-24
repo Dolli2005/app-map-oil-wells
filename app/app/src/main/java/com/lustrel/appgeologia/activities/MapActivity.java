@@ -60,6 +60,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 LatLng placeLocation = new LatLng(placeLatitude, placeLongitude);
 
                 MarkerOptions markerOptions = new MarkerOptions()
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.oil_marker))
                         .title(placeName)
                         .snippet("" + i)
                         .position(placeLocation);
