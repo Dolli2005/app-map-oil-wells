@@ -7,16 +7,19 @@ import android.view.Window;
 import com.google.android.gms.maps.*;
 import com.google.android.gms.maps.model.*;
 import com.lustrel.appgeologia.R;
-import com.lustrel.appgeologia.models.InternalDatabase;
+import com.lustrel.appgeologia.models.*;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 public class MapActivity extends FragmentActivity implements OnMapReadyCallback {
 
-    private InternalDatabase internalDatabase;
+    private OilInternalDatabase oilInternalDatabase;
+    private WaterInternalDatabase waterInternalDatabase;
     private GoogleMap map;
-    private JSONArray databaseData;
+    private JSONArray oilWellsData;
+    private JSONArray waterWellsData;
     private JSONObject lastClickedMarkerDetails;
 
     @Override
@@ -34,8 +37,13 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap map) {
         this.map = map;
         focusOnBrazil();
-        loadDatabaseData();
-        createMarkersOnMap();
+
+        loadOilDatabaseData();
+        createOilMarkersOnMap();
+
+        loadWaterDatabaseData();
+        createWaterMarkersOnMap();
+
         map.setOnMarkerClickListener(new MarkerClickHandler());
     }
 
@@ -44,24 +52,24 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 3));
     }
 
-    private void loadDatabaseData(){
-        internalDatabase = InternalDatabase.getInstance(this);
-        databaseData = internalDatabase.getData();
+    private void loadOilDatabaseData(){
+        oilInternalDatabase = OilInternalDatabase.getInstance(this);
+        oilWellsData = oilInternalDatabase.getData();
     }
 
-    private void createMarkersOnMap(){
+    private void createOilMarkersOnMap(){
         try {
-            for(int i = 0; i < databaseData.length(); i++){
-                JSONObject place = databaseData.getJSONObject(i);
+            for(int i = 0; i < oilWellsData.length(); i++){
+                JSONObject place = oilWellsData.getJSONObject(i);
 
-                String placeName = place.getString("name");
                 Double placeLatitude = place.getDouble("latitude");
                 Double placeLongitude = place.getDouble("longitude");
                 LatLng placeLocation = new LatLng(placeLatitude, placeLongitude);
 
                 MarkerOptions markerOptions = new MarkerOptions()
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_oil_marker))
-                        .title(placeName)
+                        .title("oil")
+                        //.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_oil_marker))
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
                         .snippet("" + i)
                         .position(placeLocation);
 
@@ -70,8 +78,39 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         } catch(JSONException exception){}
     }
 
-    private void openDetailsActivity(){
-        Intent intent = new Intent(MapActivity.this, DetailsActivity.class);
+    private void loadWaterDatabaseData(){
+        waterInternalDatabase = WaterInternalDatabase.getInstance(this);
+        waterWellsData = waterInternalDatabase.getData();
+    }
+
+    private void createWaterMarkersOnMap(){
+        try {
+            for(int i = 0; i < waterWellsData.length(); i++){
+                JSONObject place = waterWellsData.getJSONObject(i);
+
+                Double placeLatitude = place.getDouble("latitude");
+                Double placeLongitude = place.getDouble("longitude");
+                LatLng placeLocation = new LatLng(placeLatitude, placeLongitude);
+
+                MarkerOptions markerOptions = new MarkerOptions()
+                        .title("water")
+                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
+                        .snippet("" + i)
+                        .position(placeLocation);
+
+                map.addMarker(markerOptions);
+            }
+        } catch(JSONException exception){}
+    }
+
+    private void openOilDetailsActivity(){
+        Intent intent = new Intent(MapActivity.this, OilDetailsActivity.class);
+        intent.putExtra("MARKER_DETAILS", lastClickedMarkerDetails.toString());
+        startActivity(intent);
+    }
+
+    private void openWaterDetailsActivity(){
+        Intent intent = new Intent(MapActivity.this, WaterDetailsActivity.class);
         intent.putExtra("MARKER_DETAILS", lastClickedMarkerDetails.toString());
         startActivity(intent);
     }
@@ -80,9 +119,16 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         @Override
         public boolean onMarkerClick(Marker marker){
             try {
+                String clickedMarkerType = marker.getTitle();
                 int markerIndexOnData = Integer.parseInt(marker.getSnippet());
-                lastClickedMarkerDetails = databaseData.getJSONObject(markerIndexOnData);
-                openDetailsActivity();
+
+                if(clickedMarkerType.equals("oil")) {
+                    lastClickedMarkerDetails = oilWellsData.getJSONObject(markerIndexOnData);
+                    openOilDetailsActivity();
+                } else if(clickedMarkerType.equals("water")){
+                    lastClickedMarkerDetails = waterWellsData.getJSONObject(markerIndexOnData);
+                    openWaterDetailsActivity();
+                }
             } catch(JSONException ex){}
 
             return true;

@@ -4,8 +4,24 @@
     <string name="title_activity_details">Detalhamento do poço</string>
 
     <string name="detail_text">Detalhes</string>
-    <string name="detail_depth_text">Profundidade:</string>
+    <string name="detail_owner_text">Operador:</string>
+    <string name="detail_latitude_text">Latitude:</string>
+    <string name="detail_longitude_text">Longitude:</string>
+    <string name="detail_state_text">Estado:</string>
     <string name="detail_basin_text">Bacia:</string>
-    <string name="detail_owner_text">Proprietário:</string>
-    <string name="detail_drilling_year_text">Ano de perfuração:</string>
+    <string name="detail_field_text">Campo:</string>
+    <string name="detail_location_text">Local:</string>
+    <string name="detail_drilling_year_text">Início da perfuração:</string>
+    <string name="detail_finish_drilling_text">Fim da perfuração:</string>
+    <string name="detail_category_text">Categoria:</string>
+    <string name="detail_kind_text">Tipo:</string>
+    <string name="detail_reclassification_text">Reclassificação:</string>
+    <string name="detail_depth_text">Profundidade:</string>
+    <string name="detail_drill_text">Perfurador:</string>
+    <string name="detail_county_text">Cidade:</string>
+    <string name="detail_static_level_text">Nível estático:</string>
+    <string name="detail_dynamic_level_text">Nível dinâmico:</string>
+    <string name="detail_present_solids_text">Sólidos presentes:</string>
+    <string name="detail_flow_rate_text">Quociente de vazão:</string>
+    <string name="detail_flow_number_text">Número de vazão:</string>
 </resources>

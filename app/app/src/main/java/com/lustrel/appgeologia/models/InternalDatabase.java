@@ -4,29 +4,19 @@ import android.content.Context;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
+
 import java.io.IOException;
 import java.io.InputStream;
 
-public class InternalDatabase {
+public abstract class InternalDatabase {
 
-    private static InternalDatabase instance;
-    private JSONArray data;
+    static InternalDatabase instance;
+    String fileName;
+    protected JSONArray data;
 
-    private InternalDatabase(Context context){
-        load(context);
-    }
-
-    public synchronized static InternalDatabase getInstance(Context context){
-        if(instance == null){
-            instance = new InternalDatabase(context);
-        }
-        return instance;
-    }
-
-    private void load(Context context){
+    protected void load(Context context){
         try {
-            InputStream inputStream = context.getAssets().open("data.json");
+            InputStream inputStream = context.getAssets().open(fileName);
 
             int contentSizeInBytes = inputStream.available();
             byte bufferInBytes[] = new byte[contentSizeInBytes];
