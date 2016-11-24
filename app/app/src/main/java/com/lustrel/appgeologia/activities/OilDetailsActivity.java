@@ -1,16 +1,16 @@
 package com.lustrel.appgeologia.activities;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
 import com.lustrel.appgeologia.R;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.w3c.dom.Text;
 
-public class OilDetailsActivity extends Activity {
+public class OilDetailsActivity extends AppCompatActivity {
 
-    private TextView lblName;
+    private Toolbar toolbar;
     private TextView lblOwner;
     private TextView lblLatitude;
     private TextView lblLongitude;
@@ -30,13 +30,13 @@ public class OilDetailsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.oil_details_activity);
-
-        getAllViewElements();
+        loadElementsFromXML();
+        applyToolbar();
         populateDetails();
     }
 
-    private void getAllViewElements(){
-        lblName = (TextView) findViewById(R.id.name);
+    private void loadElementsFromXML(){
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
         lblOwner = (TextView) findViewById(R.id.owner);
         lblLatitude = (TextView) findViewById(R.id.latitude);
         lblLongitude = (TextView) findViewById(R.id.longitude);
@@ -53,12 +53,16 @@ public class OilDetailsActivity extends Activity {
         lblDrill = (TextView) findViewById(R.id.drill);
     }
 
+    private void applyToolbar(){
+        setSupportActionBar(toolbar);
+    }
+
     private void populateDetails(){
         try {
             String detailsAsText = getIntent().getStringExtra("MARKER_DETAILS");
             JSONObject details = new JSONObject(detailsAsText);
 
-            lblName.setText(details.getString("name"));
+            setTitle(details.getString("name"));
             lblOwner.setText(getString(R.string.detail_owner_text) + " " + details.getString("operator"));
             lblLatitude.setText(getString(R.string.detail_latitude_text) + " " + details.getString("latitude"));
             lblLongitude.setText(getString(R.string.detail_longitude_text) + " " + details.getString("longitude"));

@@ -1,17 +1,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-        <item name="android:actionBarStyle">@style/CustomAppBar</item>
-    </style>
-
-    <style name="CustomAppBar" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@color/colorPrimary</item>
-        <item name="android:titleTextStyle">@style/CustomAppBarTitle</item>
-    </style>
-
-    <style name="CustomAppBarTitle" parent="@android:style/TextAppearance.StatusBar.Title">
-        <item name="android:textColor">#FFFFFF</item>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
     </style>
 
 </resources>

@@ -37,6 +37,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     public void onMapReady(GoogleMap map) {
         this.map = map;
         focusOnBrazil();
+        applyCustomStyle();
 
         loadOilDatabaseData();
         createOilMarkersOnMap();
@@ -50,6 +51,11 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     private void focusOnBrazil(){
         LatLng brazilLocation = new LatLng(-13.1158448, -61.1816599);
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 3));
+    }
+
+    private void applyCustomStyle(){
+        MapStyleOptions style = MapStyleOptions.loadRawResourceStyle(this, R.raw.map_style);
+        map.setMapStyle(style);
     }
 
     private void loadOilDatabaseData(){
@@ -69,7 +75,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
                 MarkerOptions markerOptions = new MarkerOptions()
                         .title("oil")
                         //.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_oil_marker))
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.oil_marker))
                         .snippet("" + i)
                         .position(placeLocation);
 
@@ -94,7 +100,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
                 MarkerOptions markerOptions = new MarkerOptions()
                         .title("water")
-                        .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
+                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.water_marker))
                         .snippet("" + i)
                         .position(placeLocation);
 
