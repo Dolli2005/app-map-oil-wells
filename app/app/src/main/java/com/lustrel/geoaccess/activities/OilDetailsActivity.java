@@ -1,10 +1,10 @@
-package com.lustrel.appgeologia.activities;
+package com.lustrel.geoaccess.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
-import com.lustrel.appgeologia.R;
+import com.lustrel.geoaccess.R;
 import org.json.JSONException;
 import org.json.JSONObject;
 

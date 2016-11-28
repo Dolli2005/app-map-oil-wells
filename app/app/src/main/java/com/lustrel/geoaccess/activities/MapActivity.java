@@ -1,4 +1,4 @@
-package com.lustrel.appgeologia.activities;
+package com.lustrel.geoaccess.activities;
 
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.view.Window;
 import com.google.android.gms.maps.*;
 import com.google.android.gms.maps.model.*;
-import com.lustrel.appgeologia.R;
-import com.lustrel.appgeologia.models.*;
+import com.lustrel.geoaccess.R;
+import com.lustrel.geoaccess.models.*;
 
 import org.json.JSONArray;
 import org.json.JSONException;

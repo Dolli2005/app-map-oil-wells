@@ -6,7 +6,7 @@
     android:id="@+id/details_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lustrel.appgeologia.activities.OilDetailsActivity"
+    tools:context="com.lustrel.geoaccess.activities.OilDetailsActivity"
     android:orientation="vertical"
     android:background="@color/windowBackground">
 
@@ -15,7 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:background="@color/colorPrimary"
-        app:titleTextColor="@color/textColorPrimary"
+        app:titleTextColor="@color/textColorOnDark"
         android:elevation="4dp"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>

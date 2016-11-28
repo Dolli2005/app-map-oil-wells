@@ -1,4 +1,4 @@
-package com.lustrel.appgeologia;
+package com.lustrel.geoaccess;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

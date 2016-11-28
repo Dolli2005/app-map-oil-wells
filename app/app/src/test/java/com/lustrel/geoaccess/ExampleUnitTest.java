@@ -1,4 +1,4 @@
-package com.lustrel.appgeologia;
+package com.lustrel.geoaccess;
 
 import org.junit.Test;
 

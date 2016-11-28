@@ -1,4 +1,4 @@
-package com.lustrel.appgeologia.exceptions;
+package com.lustrel.geoaccess.exceptions;
 
 public class InternalDatabaseException {
 

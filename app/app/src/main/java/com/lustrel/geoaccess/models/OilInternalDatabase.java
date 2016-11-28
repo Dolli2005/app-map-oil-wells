@@ -1,4 +1,4 @@
-package com.lustrel.appgeologia.models;
+package com.lustrel.geoaccess.models;
 
 import android.content.Context;
 
