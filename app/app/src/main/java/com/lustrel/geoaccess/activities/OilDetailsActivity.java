@@ -71,24 +71,42 @@ public class OilDetailsActivity extends AppCompatActivity {
             JSONObject details = new JSONObject(detailsAsText);
 
             setTitle(details.getString("name"));
-            lblOwner.setText(getString(R.string.detail_owner_text) + " " + details.getString("operator"));
-            lblLatitude.setText(getString(R.string.detail_latitude_text) + " " + details.getString("latitude"));
-            lblLongitude.setText(getString(R.string.detail_longitude_text) + " " + details.getString("longitude"));
-            lblState.setText(getString(R.string.detail_state_text) + " " + details.getString("state"));
-            lblBasin.setText(getString(R.string.detail_basin_text) + " " + details.getString("basin"));
-            lblField.setText(getString(R.string.detail_field_text) + " " + details.getString("field"));
-            lblLocation.setText(getString(R.string.detail_location_text) + " " + details.getString("location"));
-            lblDrillingYear.setText(getString(R.string.detail_drilling_year_text) + " " + details.getString("drillingYear"));
-            lblFinishDrilling.setText(getString(R.string.detail_finish_drilling_text) + " " + details.getString("finishDrilling"));
-            lblCategory.setText(getString(R.string.detail_category_text) + " " + details.getString("category"));
-            lblKind.setText(getString(R.string.detail_kind_text) + " " + details.getString("kind"));
-            lblReclassification.setText(getString(R.string.detail_reclassification_text) + " " + details.getString("reclassification"));
-            lblDepth.setText(getString(R.string.detail_depth_text) + " " + details.getString("depth"));
-            lblDrill.setText(getString(R.string.detail_drill_text) + " " + details.getString("drill"));
-            lblGeneratingRock.setText(getString(R.string.detail_generating_rock) + "\n" + details.getString("generatingRock"));
-            lblSealsAndReservoirRocks.setText(getString(R.string.detail_seals_and_reservoir_rocks) + "\n" + details.getString("sealsAndReservoirRocks"));
-            lblGenerationAndMigration.setText(getString(R.string.detail_generation_and_migration) + "\n" + details.getString("generationAndMigration"));
-            lblTraps.setText(getString(R.string.detail_traps) + "\n" + details.getString("traps"));
+            if(details.has("operator"))
+                lblOwner.setText(getString(R.string.detail_owner_text) + " " + details.getString("operator"));
+            if(details.has("latitude"))
+                lblLatitude.setText(getString(R.string.detail_latitude_text) + " " + details.getString("latitude"));
+            if(details.has("longitude"))
+                lblLongitude.setText(getString(R.string.detail_longitude_text) + " " + details.getString("longitude"));
+            if(details.has("state"))
+                lblState.setText(getString(R.string.detail_state_text) + " " + details.getString("state"));
+            if(details.has("basin"))
+                lblBasin.setText(getString(R.string.detail_basin_text) + " " + details.getString("basin"));
+            if(details.has("field"))
+                lblField.setText(getString(R.string.detail_field_text) + " " + details.getString("field"));
+            if(details.has("location"))
+                lblLocation.setText(getString(R.string.detail_location_text) + " " + details.getString("location"));
+            if(details.has("drillingYear"))
+                lblDrillingYear.setText(getString(R.string.detail_drilling_year_text) + " " + details.getString("drillingYear"));
+            if(details.has("finishDrilling"))
+                lblFinishDrilling.setText(getString(R.string.detail_finish_drilling_text) + " " + details.getString("finishDrilling"));
+            if(details.has("category"))
+                lblCategory.setText(getString(R.string.detail_category_text) + " " + details.getString("category"));
+            if(details.has("kind"))
+                lblKind.setText(getString(R.string.detail_kind_text) + " " + details.getString("kind"));
+            if(details.has("reclassification"))
+                lblReclassification.setText(getString(R.string.detail_reclassification_text) + " " + details.getString("reclassification"));
+            if(details.has("depth"))
+                lblDepth.setText(getString(R.string.detail_depth_text) + " " + details.getString("depth"));
+            if(details.has("drill"))
+                lblDrill.setText(getString(R.string.detail_drill_text) + " " + details.getString("drill"));
+            if(details.has("generatingRock"))
+                lblGeneratingRock.setText(getString(R.string.detail_generating_rock) + "\n" + details.getString("generatingRock"));
+            if(details.has("sealsAndReservoirRocks"))
+                lblSealsAndReservoirRocks.setText(getString(R.string.detail_seals_and_reservoir_rocks) + "\n" + details.getString("sealsAndReservoirRocks"));
+            if(details.has("generationAndMigration"))
+                lblGenerationAndMigration.setText(getString(R.string.detail_generation_and_migration) + "\n" + details.getString("generationAndMigration"));
+            if(details.has("traps"))
+                lblTraps.setText(getString(R.string.detail_traps) + "\n" + details.getString("traps"));
         } catch(JSONException exception){}
     }
 }

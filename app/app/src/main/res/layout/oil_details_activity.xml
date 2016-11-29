@@ -58,7 +58,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="Operador: nenhum"
+                        android:text="Operador: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/owner"
@@ -88,42 +88,42 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="Latitude: 0"
+                        android:text="Latitude: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/latitude"
                         android:textSize="@dimen/content_text_size" />
 
                     <TextView
-                        android:text="Longitude: 0"
+                        android:text="Longitude: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/longitude"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Estado: nenhum"
+                        android:text="Estado: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/state"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Local: nenhum"
+                        android:text="Local: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/location"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Campo: nenhum"
+                        android:text="Campo: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/field"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Bacia: nenhuma"
+                        android:text="Bacia: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/basin"
@@ -153,28 +153,28 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="Início da perfuração: 0"
+                        android:text="Início da perfuração: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/drilling_year"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Fim da perfuração: 0"
+                        android:text="Fim da perfuração: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/finish_drilling"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Profundidade: 0m"
+                        android:text="Profundidade: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/depth"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Perfurador: nenhum"
+                        android:text="Perfurador: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/drill"
@@ -203,21 +203,21 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="Categoria: nenhuma"
+                        android:text="Categoria: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/category"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Tipo: nenhum"
+                        android:text="Tipo: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/kind"
                         android:textSize="@dimen/content_text_size"/>
 
                     <TextView
-                        android:text="Reclassificação: nenhuma"
+                        android:text="Reclassificação: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/reclassification"
@@ -246,7 +246,7 @@
                     android:layout_height="match_parent">
 
                     <TextView
-                        android:text="Rocha geradora: nenhuma"
+                        android:text="Rocha geradora: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/generating_rock"
@@ -254,7 +254,7 @@
                         android:layout_marginBottom="10dp"/>
 
                     <TextView
-                        android:text="Rochas reservatórias e selos: nenhuma"
+                        android:text="Rochas reservatórias e selos: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/seals_and_reservoir_rocks"
@@ -262,7 +262,7 @@
                         android:layout_marginBottom="10dp"/>
 
                     <TextView
-                        android:text="Geração e migração: nenhuma"
+                        android:text="Geração e migração: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/generation_and_migration"
@@ -270,7 +270,7 @@
                         android:layout_marginBottom="10dp"/>
 
                     <TextView
-                        android:text="Armadilha: nenhuma"
+                        android:text="Armadilha: não informado(a)"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/traps"
