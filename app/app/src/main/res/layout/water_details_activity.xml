@@ -29,6 +29,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/water_well_example"
+                android:adjustViewBounds="true"
+                android:id="@+id/imageView3" />
+
             <TextView
                 android:text="Localização"
                 android:layout_width="match_parent"
@@ -37,7 +44,8 @@
                 android:fontFamily="sans-serif"
                 android:textColor="@color/colorSecondary"
                 android:layout_margin="@dimen/activity_vertical_margin"
-                android:textSize="@dimen/content_text_size" />
+                android:textSize="@dimen/content_text_size"
+                android:id="@+id/textView" />
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
