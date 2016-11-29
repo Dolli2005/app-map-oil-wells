@@ -49,8 +49,8 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     }
 
     private void focusOnBrazil(){
-        LatLng brazilLocation = new LatLng(-13.1158448, -61.1816599);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 3));
+        LatLng brazilLocation = new LatLng(-13.4372288, -45.8777186);
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 4));
     }
 
     private void applyCustomStyle(){
@@ -74,7 +74,6 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
                 MarkerOptions markerOptions = new MarkerOptions()
                         .title("oil")
-                        //.icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_oil_marker))
                         .icon(BitmapDescriptorFactory.fromResource(R.drawable.oil_marker))
                         .snippet("" + i)
                         .position(placeLocation);

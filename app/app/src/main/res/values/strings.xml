@@ -28,4 +28,5 @@
     <string name="detail_seals_and_reservoir_rocks">Rochas reservatórias e selos:</string>
     <string name="detail_generation_and_migration">Geração e migração:</string>
     <string name="detail_traps">Armadilhas:</string>
+    <string name="detail_date">Data:</string>
 </resources>

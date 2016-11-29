@@ -27,6 +27,7 @@ public class WaterDetailsActivity extends AppCompatActivity {
     private TextView lblFlowNumber;
     private TextView lblPresentSolids;
     private TextView lblFlowRate;
+    private TextView lblDate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +51,7 @@ public class WaterDetailsActivity extends AppCompatActivity {
         lblFlowNumber = (TextView) findViewById(R.id.flow_number);
         lblPresentSolids = (TextView) findViewById(R.id.solids_present);
         lblFlowRate = (TextView) findViewById(R.id.flow_rate);
+        lblDate = (TextView) findViewById(R.id.date);
     }
 
     private void applyToolbar(){
@@ -74,6 +76,8 @@ public class WaterDetailsActivity extends AppCompatActivity {
                 lblCounty.setText(getString(R.string.detail_county_text) + " " + details.getString("county"));
             if(details.has("depth"))
                 lblDepth.setText(getString(R.string.detail_depth_text) + " " + details.getString("depth"));
+            if(details.has("date"))
+                lblDate.setText(getString(R.string.detail_date) + " " + details.getString("date"));
             if(details.has("nivelestatico"))
                 lblStaticLevel.setText(getString(R.string.detail_static_level_text) + " " + details.getString("nivelestatico"));
             if(details.has("niveldinamico"))
@@ -84,9 +88,6 @@ public class WaterDetailsActivity extends AppCompatActivity {
                 lblPresentSolids.setText(getString(R.string.detail_present_solids_text) + " " + details.getString("solidspresent"));
             if(details.has("flowrate"))
                 lblFlowRate.setText(getString(R.string.detail_flow_rate_text) + " " + details.getString("flowrate"));
-        } catch(JSONException exception){
-            Log.e("H", "H");
-            Toast.makeText(this, "What", Toast.LENGTH_SHORT).show();
-        }
+        } catch(JSONException exception){}
     }
 }
