@@ -50,7 +50,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
 
     private void focusOnBrazil(){
         LatLng brazilLocation = new LatLng(-13.4372288, -45.8777186);
-        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 4));
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(brazilLocation, 5));
     }
 
     private void applyCustomStyle(){
