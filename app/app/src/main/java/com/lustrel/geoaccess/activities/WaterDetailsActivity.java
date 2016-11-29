@@ -34,6 +34,7 @@ public class WaterDetailsActivity extends Activity {
     }
 
     private void getAllViewElements(){
+        /*
         lblName = (TextView) findViewById(R.id.name);
         lblLatitude = (TextView) findViewById(R.id.latitude);
         lblLongitude = (TextView) findViewById(R.id.longitude);
@@ -46,9 +47,11 @@ public class WaterDetailsActivity extends Activity {
         lblFlowNumber = (TextView) findViewById(R.id.flow_number);
         lblPresentSolids = (TextView) findViewById(R.id.present_solids);
         lblFlowRate = (TextView) findViewById(R.id.flow_rate);
+        */
     }
 
     private void populateDetails(){
+        /*
         try {
             String detailsAsText = getIntent().getStringExtra("MARKER_DETAILS");
             JSONObject details = new JSONObject(detailsAsText);
@@ -66,6 +69,6 @@ public class WaterDetailsActivity extends Activity {
             lblPresentSolids.setText(getString(R.string.detail_present_solids_text) + " " + details.getString("solidspresent"));
             lblFlowRate.setText(getString(R.string.detail_flow_rate_text) + " " + details.getString("flowrate"));
         } catch(JSONException exception){}
-
+        */
     }
 }

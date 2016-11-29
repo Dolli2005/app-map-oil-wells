@@ -25,6 +25,10 @@ public class OilDetailsActivity extends AppCompatActivity {
     private TextView lblReclassification;
     private TextView lblDepth;
     private TextView lblDrill;
+    private TextView lblGeneratingRock;
+    private TextView lblSealsAndReservoirRocks;
+    private TextView lblGenerationAndMigration;
+    private TextView lblTraps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +55,10 @@ public class OilDetailsActivity extends AppCompatActivity {
         lblReclassification = (TextView) findViewById(R.id.reclassification);
         lblDepth = (TextView) findViewById(R.id.depth);
         lblDrill = (TextView) findViewById(R.id.drill);
+        lblGeneratingRock = (TextView) findViewById(R.id.generating_rock);
+        lblSealsAndReservoirRocks = (TextView) findViewById(R.id.seals_and_reservoir_rocks);
+        lblGenerationAndMigration = (TextView) findViewById(R.id.generation_and_migration);
+        lblTraps = (TextView) findViewById(R.id.traps);
     }
 
     private void applyToolbar(){
@@ -77,7 +85,10 @@ public class OilDetailsActivity extends AppCompatActivity {
             lblReclassification.setText(getString(R.string.detail_reclassification_text) + " " + details.getString("reclassification"));
             lblDepth.setText(getString(R.string.detail_depth_text) + " " + details.getString("depth"));
             lblDrill.setText(getString(R.string.detail_drill_text) + " " + details.getString("drill"));
+            lblGeneratingRock.setText(getString(R.string.detail_generating_rock) + "\n" + details.getString("generatingRock"));
+            lblSealsAndReservoirRocks.setText(getString(R.string.detail_seals_and_reservoir_rocks) + "\n" + details.getString("sealsAndReservoirRocks"));
+            lblGenerationAndMigration.setText(getString(R.string.detail_generation_and_migration) + "\n" + details.getString("generationAndMigration"));
+            lblTraps.setText(getString(R.string.detail_traps) + "\n" + details.getString("traps"));
         } catch(JSONException exception){}
-
     }
 }

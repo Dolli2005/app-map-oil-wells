@@ -24,4 +24,8 @@
     <string name="detail_present_solids_text">Sólidos presentes:</string>
     <string name="detail_flow_rate_text">Quociente de vazão:</string>
     <string name="detail_flow_number_text">Número de vazão:</string>
+    <string name="detail_generating_rock">Rocha geradora:</string>
+    <string name="detail_seals_and_reservoir_rocks">Rochas reservatórias e selos:</string>
+    <string name="detail_generation_and_migration">Geração e migração:</string>
+    <string name="detail_traps">Armadilhas:</string>
 </resources>

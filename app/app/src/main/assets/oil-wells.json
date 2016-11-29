@@ -13,7 +13,11 @@
   "kind": "Exploratório",
   "reclassification": "Descobridor de campo com pretóleo",
   "depth": "884 metros",
-  "drill": "Sonda Convencional 9"
+  "drill": "Sonda Convencional 9",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "1MB 0001 BA",
   "operator": "Panergy",
@@ -29,7 +33,11 @@
   "kind": "Exploratório",
   "reclassification": "Descobridor de campo com gás natural",
   "depth": "1995,6 metros",
-  "drill": "Sonda Convencional 38"
+  "drill": "Sonda Convencional 38",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "3MB 0002 BA",
   "operator": "Panergy",
@@ -45,7 +53,11 @@
   "kind": "Exploratório",
   "reclassification": "Descobridor de nova jazida gás natural",
   "depth": "636,9 metros",
-  "drill": "Sonda Convencional 38"
+  "drill": "Sonda Convencional 38",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "3MB 0006 BA",
   "operator": "Panergy",
@@ -61,7 +73,11 @@
   "kind": "Exploratório",
   "reclassification": "Extensão para gás natural",
   "depth": "644,5 metros",
-  "drill": "Sonda Convencional 9"
+  "drill": "Sonda Convencional 9",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "3MB 0007 BA",
   "operator": "Panergy",
@@ -77,7 +93,11 @@
   "kind": "Exploratório",
   "reclassification": "Descobridor de nova jazida petróleo",
   "depth": "2070 metros",
-  "drill": "Sonda Convencional 28"
+  "drill": "Sonda Convencional 28",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "4MB 0009 BA",
   "operator": "Panergy",
@@ -93,7 +113,11 @@
   "kind": "Exploratório",
   "reclassification": "Produtor subcomercial de petróleo",
   "depth": "980 metros",
-  "drill": "Sonda Convencional 111"
+  "drill": "Sonda Convencional 111",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "7JI 0007 BA",
   "operator": "Alvopetro",
@@ -109,7 +133,11 @@
   "kind": "Desenvolvimento",
   "reclassification": "Seco com indícios de petróleo",
   "depth": "574 metros",
-  "drill": "Sonda Convencional 43"
+  "drill": "Sonda Convencional 43",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "7JI 0009 BA",
   "operator": "Alvopetro",
@@ -125,7 +153,11 @@
   "kind": "Desenvolvimento",
   "reclassification": "Produtor comercial de petróleo",
   "depth": "581 metros",
-  "drill": "Sonda Convencional 43"
+  "drill": "Sonda Convencional 43",
+  "generatingRock": "Folhelhos negros lacustres de água doce à salobra da Fm. Morro do Barro, depositados durante a fase Rifte e a Fm. Rio de Contas.",
+  "sealsAndReservoirRocks": "Arenitos flúvio-eólicos da Fm. Sergi; Arenitos de leques aluviais e lacustres das Fm. Morro do Barro e Fm. Rio de Contas; Arenitos turbidíticos da Fm. Urucutuca",
+  "generationAndMigration": "Óleo: fase rifte; Gás: final da fase rifte e durante pós-rifte; Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Por apresentar uma estruturação complexa, são esperados diversos tipos de trapas na Bacia de Camamu-Almada. Na porção rifte, o estilo estrutural em dominó permite principalmente a ocorrência de trapas estruturais com trapas estratigráficas e mistas subordinadas. Também há a possibilidade de trapas paleogeomórficas na Formação Algodões. Na seção drifte as trapas esperadas são majoritariamente estratigráficas, com arenitos turbidíticos da Formação Urucutuca sendo capeados pelos folhelhos da mesma formação."
 }, {
   "name": "1BRSA 1005 MG",
   "operator": "Petrobras",
@@ -141,7 +173,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "2846 metros",
-  "drill": "Sonda Convencional 109"
+  "drill": "Sonda Convencional 109",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1CISC 1 MG",
   "operator": "Cisco",
@@ -157,7 +193,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "1587 metros",
-  "drill": "Sonda Rotativa Wirth"
+  "drill": "Sonda Rotativa Wirth",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1IMET 7 MG",
   "operator": "Imetame",
@@ -173,7 +213,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "1833 metros",
-  "drill": "IMETAME ENERGIA 01"
+  "drill": "IMETAME ENERGIA 01",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1IMET 8 MG",
   "operator": "Imetame",
@@ -189,7 +233,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "1781 metros",
-  "drill": "IMETAME ENERGIA 01"
+  "drill": "IMETAME ENERGIA 01",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1ORT 1 MG",
   "operator": "Cemes",
@@ -205,7 +253,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "2493 metros",
-  "drill": "BCH ENERGY 2"
+  "drill": "BCH ENERGY 2",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1PTRA 1 MG",
   "operator": "Petra Energia",
@@ -221,7 +273,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "1536 metros",
-  "drill": "BCH ENERGY 2"
+  "drill": "BCH ENERGY 2",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1PTRA 10 MG",
   "operator": "Petra Energia",
@@ -237,7 +293,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "1377 metros",
-  "drill": "BCH ENERGY 8"
+  "drill": "BCH ENERGY 8",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1PTRA 11 MG",
   "operator": "Petra Energia",
@@ -253,7 +313,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "2790 metros",
-  "drill": "BCH ENERGY 2"
+  "drill": "BCH ENERGY 2",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "1PTRA 12 MG",
   "operator": "Petra Energia",
@@ -269,7 +333,11 @@
   "kind": "Exploratório",
   "reclassification": "Portador de gás natural",
   "depth": "3870 metros",
-  "drill": "FAXE 2"
+  "drill": "FAXE 2",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "9PSB 0001 MG",
   "operator": "",
@@ -285,7 +353,11 @@
   "kind": "Desenvolvimento",
   "reclassification": "Observação",
   "depth": "",
-  "drill": ""
+  "drill": "",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "9PSB 0002 MG",
   "operator": "",
@@ -301,7 +373,11 @@
   "kind": "Desenvolvimento",
   "reclassification": "Observação",
   "depth": "",
-  "drill": ""
+  "drill": "",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }, {
   "name": "9PSB 0003 MG",
   "operator": "",
@@ -317,5 +393,9 @@
   "kind": "Desenvolvimento",
   "reclassification": "Observação",
   "depth": "",
-  "drill": ""
+  "drill": "",
+  "generatingRock": "Folhelhos negros da Fm. Lagoa do Jacaré e Fm. Sete Lagoas, Siltito cinza escuro da base da Fm. Carrancas.",
+  "sealsAndReservoirRocks": "Calcarenito recristalizado cinza, siltito cinza calcífero, calcilutito da Fm. Lagoa do Jacaré; Dolomitos da Fm. Sete Lagoas e arenitos da Fm. Carrancas.",
+  "generationAndMigration": "Migração através de falhas de grandes rejeitos e discordâncias regionais originadas no processo de rifteamento.",
+  "traps": "Segundo autores, a tectônica criou mecanismos que comprometeram as armadilhas estruturais, colocando os reservatórios em comunicação com a superfície por meio de fraturas. "
 }]
