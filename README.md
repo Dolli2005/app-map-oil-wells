@@ -1,2 +1,2 @@
 # app-geologia
-An app that maps all oil wells around Brazil.
+An appliance that maps all oil wells around the Brazil.
